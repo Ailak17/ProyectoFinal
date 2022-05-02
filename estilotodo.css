@@ -1,0 +1,518 @@
+
+/*dejo este css en el que vuelvo si necesito algo del estilo original, ya que en el otro solo deje index y galeria*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+/*----------------Header todas las secciones------------------------*/
+
+header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+header .logo {
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+
+header .logo h2 {
+    color: white;
+    font-size: 50PX;
+    font-family: 'Anton';
+    padding: 20px;
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu li {
+    font-size: 25px;
+    font-family: 'Anton';
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+}
+/*------------------index---------------*/
+
+.fondo {
+    background-image: url(/Imagenes/fondo/descarga.jpg);
+    background-size: cover;
+    height: 200vh;
+    width: 100%;
+}
+
+.encabezado {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.encabezado h1 {
+    font-family: 'Antonio';
+    color: white;
+    font-size: 60px;
+}
+
+.carrucel {
+    display: grid;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 30px;
+}
+
+.img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(/Imagenes/Carrusel/carrusel\ 1.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(/Imagenes/Carrusel/carrusel\ 2.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(/Imagenes/Carrusel/carrusel\ 3.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.img {
+    border-radius: 1%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.historia {
+    width: 80%;
+    height: 240px;
+    display: flex;
+    margin: 100px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.historia h2 {
+    font-size: 90px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.historia p {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+/*------------------footer general---------------*/
+
+footer {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+footer a {
+    margin-right: 20px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 50px;
+}
+/*---------------------------------------------Galeria-----------------------------------------------*/
+
+.section1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(143, 1, 1, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 h2 {
+    font-size: 50px;
+    font-family: 'Roboto';
+}
+
+.hitSalvadxr {
+    display: grid;
+    height: 800px;
+    width: 90%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 5px;
+}
+
+.hit1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hit2 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hit3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hit4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hit5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hit6 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hit7 {
+    grid-column: 2/3;
+    grid-row: 3/5;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hit8 {
+    grid-column: 3/4;
+    grid-row: 3/5;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(143, 1, 1, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 h2 {
+    font-size: 50px;
+    font-family: 'Roboto';
+}
+
+.oscuro {
+    display: grid;
+    height: 800px;
+    width: 90%;
+    grid-column: 350px;
+    grid-template-areas: "foto1 foto2 foto3";
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 5px;
+}
+
+.foto1 {
+    grid-area: foto1;
+    background-image: url(/Imagenes/Galeria/oscuro/osc1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto2 {
+    grid-area: foto2;
+    background-image: url(/Imagenes/Galeria/oscuro/osc2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto3 {
+    grid-area: foto3;
+    background-image: url(/Imagenes/Galeria/oscuro/osc3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.section3 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(143, 1, 1, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 h2 {
+    font-size: 50px;
+    font-family: 'Roboto';
+}
+
+.ultimaFecha {
+    display: grid;
+    height: 900px;
+    width: 90%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 4px;
+}
+
+.photo1 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo3 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*------------------------------------ Pagina Proximas fechas----------------------------------------*/
+
+.ultimaFecha h1 {
+    margin-top: 60px;
+    font-family: 'Antonio';
+    font-size: 40px;
+    text-align: center;
+}
+
+.proximasFechas img {
+    margin: 30px auto auto 20px;
+    height: 200px;
+}
+
+.proximasFechas p {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Antonio';
+    font-size: 40px;
+}
+
+.mapa {
+    margin-left: 200px;
+    margin-top: 90px;
+    width: 800px;
+    height: 300px;
+}
+
+.bandas h3 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Antonio';
+    font-size: 50px;
+}
+
+.bandas img {
+    margin-left: 220px;
+    height: 300px;
+}
+ /* --------------------------Nuevo lanzamiento------------------*/
+.fondoLanzamiento {
+    padding: 80px 180px 40px 180px;
+}
+
+.fondoLanzamiento h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Antonio'
+}
+
+.fondoLanzamiento h2 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Antonio'
+}
+
+.fondoLanzamiento p {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Antonio'
+}
+
+.fondoLanzamiento h5 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Antonio'
+}
+
+.fondoLanzamiento img {
+    width: 500px;
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 40px;
+}
+
+.contacto {
+    font-family: 'Antonio';
+}
+
+.contacto h2 {
+    font-size: 40px;
+    height: 100px;
+    text-align: center;
+}
+
+.redes {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.redes a {
+    margin-right: 30px;
+}
+
+.redes i {
+    font-size: 100px;
+    color: brown;
+}
+
+.contac {
+    font-size: 100px;
+}
+
+.anteForm {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Antonio';
+    padding: 30px;
+}
+
+.formulario fieldset {
+    height: 500px;
+    width: 300px;
+    text-align: left;
+    margin-left: 33%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 40px;
+    background-image: url(/Imagenes/fondo/descarga.jpg);
+    background-size: cover;
+    text-decoration: none;
+}
+
+.formulario legend {
+    font-size: 30px;
+    font-family: 'Antonio';
+    text-decoration: none;
+}
+
+.formulario label {
+    font-family: 'Antonio';
+    font-size: 20px;
+}
+
+.formulario input {
+    border-radius: 5%;
+    border-color: white;
+    height: 30px;
+    background-color: white;
+}
+
+.formulario ::placeholder {
+    color: rgb(77, 75, 75);
+    padding-left: 5px;
+}
+
+.mensaje {
+    font-family: 'Antonio';
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.formulario p {
+    font-family: 'Antonio';
+    font-size: 20px;
+    margin-right: 30px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.formulario select {
+    height: 40px;
+    width: 90px;
+}
+
+.inputs {
+    color: black;
+    border-radius: 30%;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
