@@ -1335,7 +1335,7 @@ footer a {
 
 .mapa {
     width: 100%;
-    height: 120%;
+    height: 100%;
     margin-top: 15px;
 }
 
@@ -1405,11 +1405,9 @@ footer a {
     * {
         margin: 0;
         padding: 0;
-
         color: white;
         box-sizing: border-box;
     }
-
     header {
         width: 100%;
         height: 180px;
@@ -1418,12 +1416,10 @@ footer a {
         justify-content: center;
         align-items: center;
     }
-
     header .logo {
         width: 100%;
         height: 60%;
         justify-content: center;
-
     }
 
     header .logo h2 {
@@ -1473,7 +1469,6 @@ footer a {
         height: 200vh;
         width: 100%;
     }
-
     .encabezado {
         width: 100%;
         height: 140px;
@@ -1481,43 +1476,32 @@ footer a {
         justify-content: center;
         align-items: center;
         background-color: rgba(0, 0, 0, 0);
-
     }
-
     .encabezado h1 {
         font-family: 'New Rocker';
         color: white;
         font-size: 55px;
         background-color: rgba(255, 0, 0, 0);
         text-align: center;
-
     }
-
     /*------------------footer general---------------*/
     footer {
         background-color: black;
         height: 100px;
         text-align: center;
-
     }
-
     footer a {
         margin-right: 20px;
     }
-
     .fa-brands {
         margin-top: 22px;
         color: white;
         font-size: 45px;
     }
-
     /*---------------------------------------------Galeria-----------------------------------------------*/
     .fondoGaleria {
-
         background-image: linear-gradient(to bottom right, black, rgb(43, 2, 2), rgb(153, 26, 26));
-
     }
-
     .section1 {
         width: 100%;
         height: 500px;
@@ -1527,14 +1511,11 @@ footer a {
         align-items: center;
         justify-content: center;
         padding: 3px;
-
     }
-
     .section1 h2 {
         font-size: 40px;
         font-family: 'Roboto';
     }
-
     .hitSalvadxr {
         display: grid;
         height: 100%;
@@ -1545,63 +1526,45 @@ footer a {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
-
     .hit1 {
-
         background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
         background-size: cover;
         background-position: center;
     }
-
     .hit2 {
-
         background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
         background-size: cover;
         background-position: center;
     }
-
     .hit3 {
-
         background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
         background-size: cover;
         background-position: center;
     }
-
     .hit4 {
-
         background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
         background-size: cover;
         background-position: center;
     }
-
     .hit5 {
-
         background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
         background-size: cover;
         background-position: center;
     }
-
     .hit6 {
-
         background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
         background-size: cover;
         background-position: center;
     }
-
     .hit7 {
-
         background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
         background-size: cover;
         background-position: center;
     }
-
     .hit8 {
-
         background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
         background-size: cover;
-        background-position: center;
-    }
-
+        background-position: center;}
     .section2 {
         width: 100%;
         height: 500px;
@@ -1615,10 +1578,8 @@ footer a {
     .section2 h2 {
         text-align: center;
         font-size: 40px;
-        font-family: 'Roboto';
-
+        font-family: 'Robot;
     }
-
     .oscuro {
         display: grid;
         grid-template-areas: "foto1 foto2 foto3";
@@ -1626,30 +1587,22 @@ footer a {
         height: 100%;
         width: 90%;
         padding: 15px;
-        background-color: rgba(0, 0, 0, 0);
-
-    }
-
+        background-color: rgba(0, 0, 0,);}
     .foto1 {
         grid-area: foto1;
         background-image: url(/Imagenes/Galeria/oscuro/osc1.png);
         background-size: cover;
-        background-position: center;
-    }
-
+        background-position: center;}
     .foto2 {
         grid-area: foto2;
         background-image: url(/Imagenes/Galeria/oscuro/osc2.png);
         background-size: cover;
-        background-position: center;
-    }
-
+        background-position: center;}
     .foto3 {
         grid-area: foto3;
         background-image: url(/Imagenes/Galeria/oscuro/osc3.png);
         background-size: cover;
-        background-position: center;
-    }
+        background-position: center;}
 
     .section3 {
         width: 100%;
@@ -1658,14 +1611,10 @@ footer a {
         flex-direction: column;
         background-color: rgba(143, 1, 1, 0);
         align-items: center;
-        justify-content: center;
-    }
-
+        justify-content: center;}
     .section3 h2 {
         font-size: 40px;
-        font-family: 'Roboto';
-    }
-
+        font-family: 'Roboto';}    
     .ultimaFecha {
         display: grid;
         grid-template-areas: "photo1" "photo2" "photo3";
@@ -1673,52 +1622,128 @@ footer a {
         height: 870px;
         width: 90%;
         padding: 15px;
-        background-color: rgba(0, 0, 0, 0);
-    }
-
+        background-color: rgba(0, 0, 0, 0);}    
     .photo1 {
         grid-area: photo1;
         background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
         background-size: cover;
-        background-position: center;
-    }
-
+        background-position: center;}    
     .photo2 {
         grid-area: photo2;
         background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
         background-size: cover;
-        background-position: center;
-    }
-
+        background-position: center;}
     .photo3 {
         grid-area: photo3;
         background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
         background-size: cover;
-        background-position: center;
-    }
-
+        background-position: center;}    
     .h2estilo {
         font-family: 'Antonio';
         background-image: url(./Imagenes/fondo/descarga.jpg);
         background-size: contain;
     }
-
     .cardEstilo {
         background-color: rgb(36, 18, 18);
         box-shadow: 1em 1em 0.5em 2em rgba(1, 255, 255, 0.171)
     }
-
     .fontDeLaCard {
         font-family: 'New Rocker';
         color: white;
         font-size: 30px;
         background-color: rgba(255, 0, 0, 0);
     }
-
     .letraCanciones {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
-}
+        /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
+    .fondoprox {
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(68, 18, 2), rgb(0, 0, 0));
+        }
+        
+        .gridprox {
+            display: grid;
+            grid-template-areas: "prox1" "mapa";
+            height: 130%;
+            width: 90%;
+            margin-right: 10px;
+            background-color: rgba(0, 0, 0, 0);
+            border: 2px inset black;
+        
+        }
+        
+        .textoProximafecha {
+            grid-area: prox1;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0);
+            margin-bottom: 15px;
+            
+        }
+        
+        .textoProximafecha h1 {
+            height: 100px;
+            font-family: 'Antonio';
+            font-size: 45px;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+        
+        }
+        
+        .textoProximafecha p {
+            height: 100px;
+            font-family: 'Antonio';
+            font-size: 35px;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+            margin-top: px;
+        
+        }
+        
+        .textoProximafecha p strong {
+            background-color: rgba(0, 0, 0, 0);
+        }
+        
+        .mapita {
+            grid-area: mapa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0);
+        }
+        
+        .mapa {
+            width: 100%;
+            height: 100%;
+            
+        }
+        
+        .bandas {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0);
+            border-style: solid 3px  black ;
+        }
+        
+        .bandas h3 {
+            text-align: center;
+            height: 100px;
+            margin-top: 40px;
+            font-family: 'Antonio';
+            font-size: 50px;
+            background-color: rgba(0, 0, 0, 0);
+        }
+        
+        .bandas img {
+            height: 50%;
+            width: 90%;
+            margin: 20px;
+        }
+    }
 
 /*-----------------------@@@@@@@@@@@@ media @@@@@@@@@@@@@------------------*/
 
@@ -2015,6 +2040,102 @@ footer a {
         background-size: cover;
         background-position: center;
     }
+        /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
+
+.fondoprox {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(68, 18, 2), rgb(0, 0, 0));
+}
+
+.imagenFechas {
+    height: 140px;
+    background-image: url(./Imagenes/NuevosLanzamientos/despiadadoPorAzar.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.gridprox {
+    display: grid;
+    grid-template-areas: "prox1 mapa";
+    height: 100%;
+    width: 90%;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px inset black;
+    box-shadow: inset 0 0 100px rgb(0, 0, 0);
+
+}
+
+.textoProximafecha {
+    grid-area: prox1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+}
+
+.textoProximafecha h1 {
+    height: 100px;
+    font-family: 'Antonio';
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.textoProximafecha p {
+    height: 100px;
+    font-family: 'Antonio';
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+
+}
+
+.textoProximafecha p strong {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mapita {
+    grid-area: mapa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mapa {
+    width: 320px;
+    height: 280px;
+
+}
+
+.bandas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid 3px  black ;
+    padding-bottom: 15px;
+}
+
+.bandas h3 {
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+    font-family: 'Antonio';
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bandas img {
+    height: 250px;
+}
 }
 
 /*----------------------@@@@@@@@@@@@ media @@@@@@@@@@@@@------------------*/
@@ -2333,4 +2454,5 @@ footer a {
     .letraCanciones {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
+    
 }
