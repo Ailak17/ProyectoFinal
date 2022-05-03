@@ -575,7 +575,7 @@ footer a {
     }
 
     .fondo {
-        background-image: url(/Imagenes/fondo/descarga.jpg);
+        background-image: url(./Imagenes/fondo/descarga.jpg);
         background-size: cover;
         height: 200vh;
         width: 100%;
@@ -655,56 +655,56 @@ footer a {
 
     .hit1 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit2 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT1.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit3 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT2.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit4 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT4.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit5 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT5.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit6 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT6.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit7 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT7.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit8 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT8.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -738,21 +738,21 @@ footer a {
 
     .foto1 {
         grid-area: foto1;
-        background-image: url(/Imagenes/Galeria/oscuro/osc1.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc1.png);
         background-size: cover;
         background-position: center;
     }
 
     .foto2 {
         grid-area: foto2;
-        background-image: url(/Imagenes/Galeria/oscuro/osc2.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc2.png);
         background-size: cover;
         background-position: center;
     }
 
     .foto3 {
         grid-area: foto3;
-        background-image: url(/Imagenes/Galeria/oscuro/osc3.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc3.png);
         background-size: cover;
         background-position: center;
     }
@@ -784,21 +784,21 @@ footer a {
 
     .photo1 {
         grid-area: photo1;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .photo2 {
         grid-area: photo2;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .photo3 {
         grid-area: photo3;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1023,7 +1023,7 @@ footer a {
     }
 
     .fondo {
-        background-image: url(/Imagenes/fondo/descarga.jpg);
+        background-image: url(./Imagenes/fondo/descarga.jpg);
         background-size: cover;
         height: 160vh;
         width: 100%;
@@ -1103,56 +1103,56 @@ footer a {
 
     .hit1 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit2 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT1.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit3 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT2.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit4 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT4.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit5 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT5.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit6 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT6.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit7 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT7.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .hit8 {
 
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT8.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1187,21 +1187,21 @@ footer a {
 
     .foto1 {
         grid-area: foto1;
-        background-image: url(/Imagenes/Galeria/oscuro/osc1.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc1.png);
         background-size: cover;
         background-position: center;
     }
 
     .foto2 {
         grid-area: foto2;
-        background-image: url(/Imagenes/Galeria/oscuro/osc2.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc2.png);
         background-size: cover;
         background-position: center;
     }
 
     .foto3 {
         grid-area: foto3;
-        background-image: url(/Imagenes/Galeria/oscuro/osc3.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc3.png);
         background-size: cover;
         background-position: center;
     }
@@ -1233,21 +1233,21 @@ footer a {
 
     .photo1 {
         grid-area: photo1;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .photo2 {
         grid-area: photo2;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .photo3 {
         grid-area: photo3;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1464,7 +1464,7 @@ footer a {
     }
 
     .fondo {
-        background-image: url(/Imagenes/fondo/descarga.jpg);
+        background-image: url(./Imagenes/fondo/descarga.jpg);
         background-size: cover;
         height: 200vh;
         width: 100%;
@@ -1527,42 +1527,42 @@ footer a {
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     .hit1 {
-        background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
         background-size: cover;
         background-position: center;
     }
     .hit2 {
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT1.jpg);
         background-size: cover;
         background-position: center;
     }
     .hit3 {
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT2.jpg);
         background-size: cover;
         background-position: center;
     }
     .hit4 {
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT4.jpg);
         background-size: cover;
         background-position: center;
     }
     .hit5 {
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT5.jpg);
         background-size: cover;
         background-position: center;
     }
     .hit6 {
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT6.jpg);
         background-size: cover;
         background-position: center;
     }
     .hit7 {
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT7.jpg);
         background-size: cover;
         background-position: center;
     }
     .hit8 {
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT8.jpg);
         background-size: cover;
         background-position: center;}
     .section2 {
@@ -1590,17 +1590,17 @@ footer a {
         background-color: rgba(0, 0, 0,);}
     .foto1 {
         grid-area: foto1;
-        background-image: url(/Imagenes/Galeria/oscuro/osc1.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc1.png);
         background-size: cover;
         background-position: center;}
     .foto2 {
         grid-area: foto2;
-        background-image: url(/Imagenes/Galeria/oscuro/osc2.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc2.png);
         background-size: cover;
         background-position: center;}
     .foto3 {
         grid-area: foto3;
-        background-image: url(/Imagenes/Galeria/oscuro/osc3.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc3.png);
         background-size: cover;
         background-position: center;}
 
@@ -1625,17 +1625,17 @@ footer a {
         background-color: rgba(0, 0, 0, 0);}    
     .photo1 {
         grid-area: photo1;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
         background-size: cover;
         background-position: center;}    
     .photo2 {
         grid-area: photo2;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
         background-size: cover;
         background-position: center;}
     .photo3 {
         grid-area: photo3;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
         background-size: cover;
         background-position: center;}    
     .h2estilo {
@@ -1659,8 +1659,7 @@ footer a {
         /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
     .fondoprox {
         background-image: linear-gradient(rgb(0, 0, 0), rgb(68, 18, 2), rgb(0, 0, 0));
-        }
-        
+        }        
         .gridprox {
             display: grid;
             grid-template-areas: "prox1" "mapa";
@@ -1807,7 +1806,7 @@ footer a {
     }
 
     .fondo {
-        background-image: url(/Imagenes/fondo/descarga.jpg);
+        background-image: url(./Imagenes/fondo/descarga.jpg);
         background-size: cover;
         height: 200vh;
         width: 100%;
@@ -1885,7 +1884,7 @@ footer a {
     .hit1 {
         grid-column: 1/2;
         grid-row: 1/3;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1893,7 +1892,7 @@ footer a {
     .hit2 {
         grid-column: 2/3;
         grid-row: 1/3;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT1.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1901,7 +1900,7 @@ footer a {
     .hit3 {
         grid-column: 3/4;
         grid-row: 1/2;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT2.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1909,7 +1908,7 @@ footer a {
     .hit4 {
         grid-column: 3/4;
         grid-row: 2/3;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT4.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1917,7 +1916,7 @@ footer a {
     .hit5 {
         grid-column: 1/2;
         grid-row: 3/4;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT5.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1925,7 +1924,7 @@ footer a {
     .hit6 {
         grid-column: 1/2;
         grid-row: 4/5;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT6.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1933,15 +1932,14 @@ footer a {
     .hit7 {
         grid-column: 2/3;
         grid-row: 3/5;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT7.jpg);
         background-size: cover;
         background-position: center;
     }
-
     .hit8 {
         grid-column: 3/4;
         grid-row: 3/5;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT8.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1974,21 +1972,20 @@ footer a {
 
     .foto1 {
         grid-area: foto1;
-        background-image: url(/Imagenes/Galeria/oscuro/osc1.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc1.png);
         background-size: cover;
         background-position: center;
     }
 
     .foto2 {
         grid-area: foto2;
-        background-image: url(/Imagenes/Galeria/oscuro/osc2.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc2.png);
         background-size: cover;
         background-position: center;
     }
-
     .foto3 {
         grid-area: foto3;
-        background-image: url(/Imagenes/Galeria/oscuro/osc3.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc3.png);
         background-size: cover;
         background-position: center;
     }
@@ -2020,7 +2017,7 @@ footer a {
     .photo1 {
         grid-column: 2/3;
         grid-row: 3/4;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2028,7 +2025,7 @@ footer a {
     .photo2 {
         grid-column: 1/2;
         grid-row: 3/4;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2036,7 +2033,7 @@ footer a {
     .photo3 {
         grid-column: 1/3;
         grid-row: 1/3;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2199,7 +2196,7 @@ footer a {
     }
 
     .fondo {
-        background-image: url(/Imagenes/fondo/descarga.jpg);
+        background-image: url(./Imagenes/fondo/descarga.jpg);
         background-size: cover;
         height: 240vh;
         width: 100%;
@@ -2277,7 +2274,7 @@ footer a {
     .hit1 {
         grid-column: 1/2;
         grid-row: 1/3;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2285,7 +2282,7 @@ footer a {
     .hit2 {
         grid-column: 2/3;
         grid-row: 1/3;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT1.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2293,7 +2290,7 @@ footer a {
     .hit3 {
         grid-column: 3/4;
         grid-row: 1/2;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT2.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2301,7 +2298,7 @@ footer a {
     .hit4 {
         grid-column: 3/4;
         grid-row: 2/3;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT4.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2309,7 +2306,7 @@ footer a {
     .hit5 {
         grid-column: 1/2;
         grid-row: 3/4;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT5.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2317,7 +2314,7 @@ footer a {
     .hit6 {
         grid-column: 1/2;
         grid-row: 4/5;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT6.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2325,7 +2322,7 @@ footer a {
     .hit7 {
         grid-column: 2/3;
         grid-row: 3/5;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT7.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2333,7 +2330,7 @@ footer a {
     .hit8 {
         grid-column: 3/4;
         grid-row: 3/5;
-        background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HIT8.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2366,21 +2363,21 @@ footer a {
 
     .foto1 {
         grid-area: foto1;
-        background-image: url(/Imagenes/Galeria/oscuro/osc1.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc1.png);
         background-size: cover;
         background-position: center;
     }
 
     .foto2 {
         grid-area: foto2;
-        background-image: url(/Imagenes/Galeria/oscuro/osc2.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc2.png);
         background-size: cover;
         background-position: center;
     }
 
     .foto3 {
         grid-area: foto3;
-        background-image: url(/Imagenes/Galeria/oscuro/osc3.png);
+        background-image: url(./Imagenes/Galeria/oscuro/osc3.png);
         background-size: cover;
         background-position: center;
     }
@@ -2412,7 +2409,7 @@ footer a {
     .photo1 {
         grid-column: 2/3;
         grid-row: 3/4;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2420,7 +2417,7 @@ footer a {
     .photo2 {
         grid-column: 1/2;
         grid-row: 3/4;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -2428,7 +2425,7 @@ footer a {
     .photo3 {
         grid-column: 1/3;
         grid-row: 1/3;
-        background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
+        background-image: url(./Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
         background-size: cover;
         background-position: center;
     }
