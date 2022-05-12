@@ -93,7 +93,7 @@ header {
 }
 
 .fondo {
-    background-image: url(/Imagenes/fondo/descarga.jpg);
+    background-image: url(./Imagenes/fondo/descarga.jpg);
     background-size: cover;
     height: 200vh;
     width: 100%;
@@ -192,56 +192,56 @@ footer {
 .hit1 {
     grid-column: 1/2;
     grid-row: 1/3;
-    background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
+    background-image: url(./Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
     @include bg (cover, center)
 }
 
 .hit2 {
     grid-column: 2/3;
     grid-row: 1/3;
-    background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
+    background-image: url(./Imagenes/Galeria/HitSalvador/HIT1.jpg);
     @include bg (cover, center)
 }
 
 .hit3 {
     grid-column: 3/4;
     grid-row: 1/2;
-    background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
+    background-image: url(./Imagenes/Galeria/HitSalvador/HIT2.jpg);
     @include bg (cover, center)
 }
 
 .hit4 {
     grid-column: 3/4;
     grid-row: 2/3;
-    background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
+    background-image: url(./Imagenes/Galeria/HitSalvador/HIT4.jpg);
     @include bg (cover, center)
 }
 
 .hit5 {
     grid-column: 1/2;
     grid-row: 3/4;
-    background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
+    background-image: url(./Imagenes/Galeria/HitSalvador/HIT5.jpg);
     @include bg (cover, center)
 }
 
 .hit6 {
     grid-column: 1/2;
     grid-row: 4/5;
-    background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
+    background-image: url(./Imagenes/Galeria/HitSalvador/HIT6.jpg);
     @include bg (cover, center)
 }
 
 .hit7 {
     grid-column: 2/3;
     grid-row: 3/5;
-    background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
+    background-image: url(./Imagenes/Galeria/HitSalvador/HIT7.jpg);
     @include bg (cover, center);
 }
 
 .hit8 {
     grid-column: 3/4;
     grid-row: 3/5;
-    background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
+    background-image: url(./Imagenes/Galeria/HitSalvador/HIT8.jpg);
     @include bg (cover, center)
 }
 
@@ -295,21 +295,21 @@ $osc in $oscuro {
 .photo1 {
     grid-column: 2/3;
     grid-row: 3/4;
-    background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
+    background-image: url(./Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
     @include bg (cover, center)
 }
 
 .photo2 {
     grid-column: 1/2;
     grid-row: 3/4;
-    background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
+    background-image: url(./Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
     @include bg (cover, center)
 }
 
 .photo3 {
     grid-column: 1/3;
     grid-row: 1/3;
-    background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
+    background-image: url(./Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
     @include bg (cover, center)
 }
 
