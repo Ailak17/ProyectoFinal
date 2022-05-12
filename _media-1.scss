@@ -1,0 +1,268 @@
+@media only screen and (min-width: 250px) and (max-width: 332px) {
+    * {
+        margin: 0 3px 0 3px ;
+        padding: 0;
+        
+        color: white;
+        box-sizing: border-box;
+    }
+    header {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .logo {
+            width: 100%;
+            height: 50%;
+            justify-content: center;
+        }
+        h2 {
+            color: white;
+            font-size: 30PX;
+            font-family: 'Anton';
+            padding: 5px;
+            text-align: center;
+        }
+    }
+    
+    .menu {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        li {
+            font-size: 12px;
+            font-family: 'Anton';
+            list-style: none;
+            text-align: center;
+            justify-content: space-around;
+            margin: 2px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+        }
+    }
+    /*------------------index---------------*/
+    
+    .carousel-inner  {
+        width: 45%;
+        
+    }
+    .fondo {
+        background-image: url(/Imagenes/fondo/descarga.jpg);
+        background-size: cover;
+        height: 200vh;
+        width: 100%;
+    }
+    
+    .encabezado {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        h1 {
+            font-family: 'New Rocker';
+            color: white;
+            font-size: 65px;
+        background-color: rgba(255, 0, 0, 0);
+        }
+        h2 {
+            font-family: 'New Rocker';
+            color: white;
+            font-size: 65px;
+            background-color: rgba(255, 0, 0, 0);
+            }
+    }
+    /*------------------footer general---------------*/
+    footer {
+        background-color: black;
+        height: 100px;
+        text-align: center;
+        a {
+            margin-right: 20px;
+        }
+    }
+
+    
+    .fa-brands {
+        margin-top: 22px;
+        color: white;
+        font-size: 45px;
+    }
+    /*---------------------------------------------Galeria-----------------------------------------------*/
+    .fondoGaleria{
+    
+        background-image: linear-gradient(to bottom right, black , rgb(43, 2, 2) , rgb(153, 26, 26));
+    
+    }
+    .section1 {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(143, 1, 1, 0);
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        h2 {
+            font-size: 40px;
+            font-family: 'Roboto';}
+    }
+    .hitSalvadxr {
+        display: grid;
+        height: 100%;
+        width: 90%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        gap: 5px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .hit1 {
+        
+        background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .hit2 {
+        
+        background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .hit3 {
+        
+        background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .hit4 {
+        
+        background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .hit5 {
+        
+        background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .hit6 {
+        
+        background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .hit7 {
+        
+        background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .hit8 {
+        
+        background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .section2 {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(143, 1, 1, 0);
+        align-items: center;
+        justify-content: center;
+    }
+    .section2 h2 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Roboto';
+        
+    }
+    .oscuro {
+        display: grid;
+        grid-template-areas: "foto1" "foto2" "foto3";
+        gap: 5px;
+        height: 100%;
+        width: 90%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        
+    }
+    .foto1 {
+        grid-area: foto1;
+        background-image: url(/Imagenes/Galeria/oscuro/osc1.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .foto2 {
+        grid-area: foto2;
+        background-image: url(/Imagenes/Galeria/oscuro/osc2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .foto3 {
+        grid-area: foto3;
+        background-image: url(/Imagenes/Galeria/oscuro/osc3.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .section3 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(143, 1, 1, 0);
+        align-items: center;
+        justify-content: center;
+    }
+    .section3 h2 {
+        font-size: 40px;
+        font-family: 'Roboto';
+    }
+    .ultimaFecha {
+        display: grid;
+        grid-template-areas:"photo1" "photo2" "photo3";
+        gap: 5px;
+        height: 500px;
+        width: 90%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .photo1 {
+        grid-area: photo1;
+        background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .photo2 {
+        grid-area: photo2;
+        background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .photo3 {
+        grid-area: photo3;
+        background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+.cardEstilo {
+    background-color: black;
+    box-shadow: 1rem 1rem 1rem 2rem rgba(34, 147, 167, 0.596);
+    border-radius: 10px;
+}
+.fontDeLaCard {
+    font-family: $fuente3;
+}

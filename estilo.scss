@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    box-sizing: border-box;
+}
+$fuente1 : 'Roboto';
+$fuente2 : 'Anton';
+$fuente3 : 'New Rocker';
+$fuente4 : 'Antonio';
+$colorb : white;
+
+@mixin bg ($background-size, $background-position ) {
+    background-size:$background-size;
+    background-position: $background-position;
+}
+
+/*----------------Header todas las secciones------------------------*/
+
+
+header {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    background-color: black;
+
+    .logo {
+        width: 30%;
+        height: 100%;
+        align-items: center;
+        animation-name: logo;
+        animation-duration: 10s;
+    }
+
+    h2 {
+        color: $colorb;
+        font-size: 65PX;
+        font-family: $fuente2;
+        padding: 20px;
+        animation-name: logo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes logo {
+        40% {
+            color: brown;
+        }
+
+        60% {
+            color: black;
+        }
+
+        100% {
+            color: white;
+        }
+
+    }
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    li {
+        font-size: 25px;
+        font-family: $fuente2;
+        list-style: none;
+        margin: 10px;
+        text-align: center;
+    }
+
+    a {
+        color: $colorb;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+    }
+}
+
+/*------------------index---------------*/
+
+
+.carousel-inner {
+    width: 45%;
+
+}
+
+.fondo {
+    background-image: url(/Imagenes/fondo/descarga.jpg);
+    background-size: cover;
+    height: 200vh;
+    width: 100%;
+}
+
+.encabezado {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    h1 {
+        font-family: $fuente3;
+        color: white;
+        font-size: 65px;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    h2 {
+        font-family: $fuente3;
+        color: white;
+        font-size: 65px;
+        background-color: rgba(255, 0, 0, 0);
+    }
+}
+.fuentealh2 {
+    font-family: $fuente1;
+    
+}
+
+/*------------------footer general---------------*/
+
+footer {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+
+    a {
+        margin-right: 20px;
+    }
+}
+
+.fa-brands {
+    margin-top: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+/*---------------------------------------------Galeria-----------------------------------------------*/
+.fondoGaleria {
+
+    background-image: linear-gradient(to bottom right, black, rgb(43, 2, 2), rgb(153, 26, 26));
+
+}
+
+.t1 {
+    transition: all height 1s;
+}
+
+.t1:hover {
+    height: 140%;
+    width: 140%;
+    z-index: 2;
+}
+
+.secciones {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(143, 1, 1, 0);
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        font-size: 50px;
+        font-family: $fuente1;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.section1 {
+    @extend .secciones
+}
+
+.hitSalvadxr {
+    display: grid;
+    height: 800px;
+    width: 90%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 5px;
+}
+
+.hit1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
+    @include bg (cover, center)
+}
+
+.hit2 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT1.jpg);
+    @include bg (cover, center)
+}
+
+.hit3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT2.jpg);
+    @include bg (cover, center)
+}
+
+.hit4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT4.jpg);
+    @include bg (cover, center)
+}
+
+.hit5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT5.jpg);
+    @include bg (cover, center)
+}
+
+.hit6 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT6.jpg);
+    @include bg (cover, center)
+}
+
+.hit7 {
+    grid-column: 2/3;
+    grid-row: 3/5;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT7.jpg);
+    @include bg (cover, center);
+}
+
+.hit8 {
+    grid-column: 3/4;
+    grid-row: 3/5;
+    background-image: url(/Imagenes/Galeria/HitSalvador/HIT8.jpg);
+    @include bg (cover, center)
+}
+
+/*----------------*/
+.section2 {
+    @extend .secciones
+}
+
+
+.oscuro {
+    display: grid;
+    height: 800px;
+    width: 90%;
+    grid-column: 350px;
+    grid-template-areas: "foto1 foto2 foto3";
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 5px;
+}
+
+/*-mapa-*/
+$oscuro: (foto1: osc1,
+    foto2: osc2,
+    foto3: osc3,
+);
+
+@each $foto,
+$osc in $oscuro {
+    .#{$foto} {
+        grid-area: $foto;
+        background-image: url(./Imagenes/Galeria/oscuro/#{$osc}.png);
+        @include bg (cover, center)
+    }
+}
+
+.section3 {
+    @extend .secciones;
+    height: 800px;
+}
+
+.ultimaFecha {
+    display: grid;
+    height: 900px;
+    width: 90%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 4px;
+}
+
+
+.photo1 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url(/Imagenes/Galeria/ultimaFecha/ultimafecha.jpg);
+    @include bg (cover, center)
+}
+
+.photo2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(/Imagenes/Galeria/ultimaFecha/EMI\ FOTO\ ROJA.jpg);
+    @include bg (cover, center)
+}
+
+.photo3 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-image: url(/Imagenes/Galeria/ultimaFecha/IMG_20220115_225149413.jpg);
+    @include bg (cover, center)
+}
+
+/*------------------------------------ Pagina Proximas fechas----------------------------------------*/
+
+.fondoprox {
+    background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
+}
+
+.imagenFechas {
+    height: 140px;
+    background-image: url(./Imagenes/NuevosLanzamientos/despiadadoPorAzar.png);
+    @include bg (cover, center)
+}
+
+.gridprox {
+    display: grid;
+    grid-template-areas: "prox1 mapa";
+    height: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.textoProximafecha {
+    grid-area: prox1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+
+    h1 {
+        height: 100px;
+        font-family: $fuente4;
+        font-size: 50px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    p {
+        height: 100px;
+        font-family: $fuente4;
+        font-size: 40px;
+        background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+
+        strong {
+            background-color: rgba(0, 0, 0, 0);
+        }
+    }
+}
+
+.mapita {
+    grid-area: mapa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mapa {
+    width: 320px;
+    height: 280px;
+
+}
+
+.bandas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+
+    h3 {
+        text-align: center;
+        height: 100px;
+        margin-top: 50px;
+        font-family: $fuente4;
+        font-size: 50px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    img {
+        height: 250px;
+    }
+}
+.cardEstilo {
+    background-color: black;
+    box-shadow: 1rem 1rem 1rem 2rem rgba(34, 147, 167, 0.596);
+    border-radius: 10px;
+}
+.fontDeLaCard {
+    font-family: $fuente3;
+}
+/*--------------------------------contacto-----------------*/
+.negro {
+    background-color: black;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: $fuente4;
+    padding: 20px;
+
+    h2 {
+        font-size: 55px;
+        height: 150px;
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+.redes {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 60px;
+
+    a {
+        margin-right: 30px;
+    }
+
+    i {
+        font-size: 100px;
+        color: brown;
+    }
+}
+
+
+@import "_media-1";
+@import "_media-2";
+@import "_media-3";
+@import "_media-4";
+@import "_media-5";
