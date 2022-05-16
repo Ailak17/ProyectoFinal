@@ -323,27 +323,17 @@ $osc in $oscuro {
 }
 
 .proxh2 {
-    height: 70px;
+    height: 170px;
     font-family: $fuente4;
     text-shadow: 0 0 30px rgba(163, 51, 7, 0.952);
     font-weight: bold;
     text-align: center;
-    text-transform: uppercase;
+    font-size: 200px;
     background-image: url(./Imagenes/fondo/descarga.jpg);
     @include bg (contain, cover);
 }
 
-.gridprox {
-    display: grid;
-    grid-template-areas: "prox1 mapa";
-    height: 100%;
-    padding: 20px;
-    margin-top: 30px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
 .textoProximafecha {
-    grid-area: prox1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -372,38 +362,26 @@ $osc in $oscuro {
 }
 
 .mapita {
-    grid-area: mapa;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0);
 }
 
-.mapa {
-    width: 320px;
-    height: 280px;
-
-}
 
 .bandas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(0, 0, 0, 0);
-
     h3 {
         text-align: center;
         height: 100px;
-        margin-top: 50px;
         font-family: $fuente4;
         font-size: 50px;
         background-color: rgba(0, 0, 0, 0);
+        text-shadow: 0 0 20px rgb(255, 94, 0);
     }
 
-    img {
-        height: 250px;
-    }
+    
 }
 /*--------------------------------------nuevo lanzamiento--------------------*/
 

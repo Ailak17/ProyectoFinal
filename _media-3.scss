@@ -60,7 +60,7 @@
     .fondo {
         background-image: url(./Imagenes/fondo/descarga.jpg);
         background-size: cover;
-        height: 100vh;
+        height: 100%;
         width: 100%;
     }
     
@@ -285,17 +285,8 @@
     @include bg (contain, cover);
 }
 
-.gridprox {
-    display: grid;
-    grid-template-areas: "prox1 mapa";
-    height: 100%;
-    padding: 20px;
-    margin-top: 30px;
-    background-color: rgba(0, 0, 0, 0);
-}
 
 .textoProximafecha {
-    grid-area: prox1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -324,7 +315,6 @@
 }
 
 .mapita {
-    grid-area: mapa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -351,10 +341,6 @@
         font-family: $fuente4;
         font-size: 50px;
         background-color: rgba(0, 0, 0, 0);
-    }
-
-    img {
-        height: 250px;
     }
 }
 

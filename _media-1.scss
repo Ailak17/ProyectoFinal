@@ -129,13 +129,12 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     .hit1 {
-        
         background-image: url(./Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
         background-size: cover;
         background-position: center;
     }
     .hit2 {
-        
+
         background-image: url(./Imagenes/Galeria/HitSalvador/HIT1.jpg);
         background-size: cover;
         background-position: center;
@@ -267,8 +266,9 @@
 }
 
 .proxh2 {
-    height: 70px;
+    
     font-family: $fuente4;
+    font-size: 35px;
     text-shadow: 0 0 30px rgba(163, 51, 7, 0.952);
     font-weight: bold;
     text-align: center;
@@ -276,57 +276,35 @@
     background-image: url(./Imagenes/fondo/descarga.jpg);
     @include bg (contain, cover);
 }
-
-.gridprox {
-    display: grid;
-    grid-template-areas: "prox1 mapa";
-    height: 100%;
-    padding: 20px;
-    margin-top: 30px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
 .textoProximafecha {
-    grid-area: prox1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
     background-color: rgba(0, 0, 0, 0);
+    height: auto;
 
     h1 {
-        height: 100px;
         font-family: $fuente4;
-        font-size: 45px;
+        font-size: 20px;
         background-color: rgba(0, 0, 0, 0);
+        
     }
-
     p {
-        height: 100px;
         font-family: $fuente4;
-        font-size: 35px;
+        font-size: 10px;
         background-color: rgba(0, 0, 0, 0);
         text-align: center;
-
+        margin-top: 10px;
+        
         strong {
             background-color: rgba(0, 0, 0, 0);
         }
+        
     }
 }
-
 .mapita {
-    grid-area: mapa;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0);
-}
-
-.mapa {
-    width: 320px;
-    height: 280px;
-
 }
 
 .bandas {
@@ -345,11 +323,42 @@
         background-color: rgba(0, 0, 0, 0);
     }
 
-    img {
-        height: 250px;
+}
+/*--------------------------------contacto-----------------*/
+.negro {
+    background-color: black;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: $fuente4;
+    padding: 10px;
+
+    h2 {
+        font-size: 55px;
+        height:80%;
+        margin-top: 5%;
+    
+        text-align: center;
     }
 }
 
+.redes {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 60px;
+
+    a {
+        margin-right: 30px;
+    }
+
+    i {
+        font-size: 100px;
+        color: brown;
+    }
+}
 /*----------------------Nuevos lanzamientos------------------*/
 .cardEstilo {
     background-color: black;

@@ -298,28 +298,18 @@ footer a {
 }
 
 .proxh2 {
-  height: 70px;
+  height: 170px;
   font-family: "Antonio";
   text-shadow: 0 0 30px rgba(163, 51, 7, 0.952);
   font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
+  font-size: 200px;
   background-image: url(./Imagenes/fondo/descarga.jpg);
   background-size: contain;
   background-position: cover;
 }
 
-.gridprox {
-  display: grid;
-  grid-template-areas: "prox1 mapa";
-  height: 100%;
-  padding: 20px;
-  margin-top: 30px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .textoProximafecha {
-  grid-area: prox1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -345,35 +335,22 @@ footer a {
 }
 
 .mapita {
-  grid-area: mapa;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0);
 }
 
-.mapa {
-  width: 320px;
-  height: 280px;
-}
-
 .bandas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: rgba(0, 0, 0, 0);
 }
 .bandas h3 {
   text-align: center;
   height: 100px;
-  margin-top: 50px;
   font-family: "Antonio";
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0);
-}
-.bandas img {
-  height: 250px;
+  text-shadow: 0 0 20px rgb(255, 94, 0);
 }
 
 /*--------------------------------------nuevo lanzamiento--------------------*/
@@ -701,8 +678,8 @@ footer a {
 }
 
 .proxh2 {
-  height: 70px;
   font-family: "Antonio";
+  font-size: 35px;
   text-shadow: 0 0 30px rgba(163, 51, 7, 0.952);
   font-weight: bold;
   text-align: center;
@@ -712,52 +689,32 @@ footer a {
   background-position: cover;
 }
 
-.gridprox {
-  display: grid;
-  grid-template-areas: "prox1 mapa";
-  height: 100%;
-  padding: 20px;
-  margin-top: 30px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .textoProximafecha {
-  grid-area: prox1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
   background-color: rgba(0, 0, 0, 0);
+  height: auto;
 }
 .textoProximafecha h1 {
-  height: 100px;
   font-family: "Antonio";
-  font-size: 45px;
+  font-size: 20px;
   background-color: rgba(0, 0, 0, 0);
 }
 .textoProximafecha p {
-  height: 100px;
   font-family: "Antonio";
-  font-size: 35px;
+  font-size: 10px;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
+  margin-top: 10px;
 }
 .textoProximafecha p strong {
   background-color: rgba(0, 0, 0, 0);
 }
 
 .mapita {
-  grid-area: mapa;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0);
-}
-
-.mapa {
-  width: 320px;
-  height: 280px;
 }
 
 .bandas {
@@ -775,8 +732,37 @@ footer a {
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0);
 }
-.bandas img {
-  height: 250px;
+
+/*--------------------------------contacto-----------------*/
+.negro {
+  background-color: black;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Antonio";
+  padding: 10px;
+}
+.contacto h2 {
+  font-size: 55px;
+  height: 80%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.redes {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 60px;
+}
+.redes a {
+  margin-right: 30px;
+}
+.redes i {
+  font-size: 100px;
+  color: brown;
 }
 
 /*----------------------Nuevos lanzamientos------------------*/
@@ -815,7 +801,6 @@ footer a {
     height: 50%;
     justify-content: center;
   }
-
   header .logo h2 {
     color: white;
     font-size: 35PX;
@@ -832,7 +817,6 @@ footer a {
     justify-content: space-around;
     margin-left: 2px;
   }
-
   .menu li {
     margin: 2px;
     font-size: 16px;
@@ -841,13 +825,11 @@ footer a {
     margin: 2px;
     text-align: center;
   }
-
   .menu a {
     color: white;
     text-decoration: none;
   }
-
-  li a:hover {
+  .menu a:hover {
     color: red;
   }
 
@@ -859,7 +841,7 @@ footer a {
   .fondo {
     background-image: url(./Imagenes/fondo/descarga.jpg);
     background-size: cover;
-    height: 160vh;
+    height: 100%;
     width: 100%;
   }
 
@@ -936,7 +918,7 @@ footer a {
   }
 
   .hit1 {
-    background-image: url(..genes/Galeria/HitSalvador/HITSALVADOR.jpg);
+    background-image: url(./Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -1157,9 +1139,6 @@ body {
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0);
 }
-.bandas img {
-  height: 250px;
-}
 
 /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
 .fondoprox {
@@ -1176,15 +1155,6 @@ body {
   background-image: url(./Imagenes/fondo/descarga.jpg);
   background-size: contain;
   background-position: cover;
-}
-
-.gridprox {
-  display: grid;
-  grid-template-areas: "prox1 mapa";
-  height: 100%;
-  padding: 20px;
-  margin-top: 30px;
-  background-color: rgba(0, 0, 0, 0);
 }
 
 .textoProximafecha {
@@ -1326,7 +1296,7 @@ body {
   .fondo {
     background-image: url(./Imagenes/fondo/descarga.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
   }
 
@@ -1560,17 +1530,7 @@ body {
   background-position: cover;
 }
 
-.gridprox {
-  display: grid;
-  grid-template-areas: "prox1 mapa";
-  height: 100%;
-  padding: 20px;
-  margin-top: 30px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .textoProximafecha {
-  grid-area: prox1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1596,7 +1556,6 @@ body {
 }
 
 .mapita {
-  grid-area: mapa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1622,9 +1581,6 @@ body {
   font-family: "Antonio";
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0);
-}
-.bandas img {
-  height: 250px;
 }
 
 /*----------------------Nuevos lanzamientos------------------*/
@@ -1951,17 +1907,7 @@ body {
   background-position: cover;
 }
 
-.gridprox {
-  display: grid;
-  grid-template-areas: "prox1 mapa";
-  height: 100%;
-  padding: 20px;
-  margin-top: 30px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .textoProximafecha {
-  grid-area: prox1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1987,7 +1933,6 @@ body {
 }
 
 .mapita {
-  grid-area: mapa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2013,9 +1958,6 @@ body {
   font-family: "Antonio";
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0);
-}
-.bandas img {
-  height: 250px;
 }
 
 /*----------------------Nuevos lanzamientos------------------*/
@@ -2334,17 +2276,7 @@ body {
   background-position: cover;
 }
 
-.gridprox {
-  display: grid;
-  grid-template-areas: "prox1 mapa";
-  height: 100%;
-  padding: 20px;
-  margin-top: 30px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .textoProximafecha {
-  grid-area: prox1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2370,7 +2302,6 @@ body {
 }
 
 .mapita {
-  grid-area: mapa;
   display: flex;
   justify-content: center;
   align-items: center;

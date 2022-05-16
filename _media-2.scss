@@ -19,14 +19,13 @@
         width: 100%;
         height: 50%;
         justify-content: center;
-        
-    }
-    header .logo h2 {
-        color: white;
-        font-size: 35PX;
-        font-family: 'Anton';
-        padding: 5px;
-        text-align: center;
+        h2 {
+            color: white;
+            font-size: 35PX;
+            font-family: 'Anton';
+            padding: 5px;
+            text-align: center;
+        }
     }
     .menu {
         height: 50%;
@@ -35,22 +34,22 @@
         align-items: center;
         justify-content: space-around;
         margin-left: 2px;
-    }
-    .menu li {
-        margin: 2px;
-        font-size: 16px;
-        font-family: 'Anton';
-        list-style: none;
-        margin: 2px;
-        text-align: center;
-    }
-    .menu a {
-        color: white;
-        text-decoration: none;
-    }
-    li a:hover {
-        color: red;
-    }
+        li {
+            margin: 2px;
+            font-size: 16px;
+            font-family: 'Anton';
+            list-style: none;
+            margin: 2px;
+            text-align: center;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+        }
+    } 
     /*------------------index---------------*/
     .carousel-inner  {
         width: 80%;
@@ -59,7 +58,7 @@
     .fondo {
         background-image: url(./Imagenes/fondo/descarga.jpg);
         background-size: cover;
-        height: 160vh;
+        height: 100%;
         width: 100%;
     }
     
@@ -139,7 +138,7 @@
     }
     .hit1 {
         
-        background-image: url(..genes/Galeria/HitSalvador/HITSALVADOR.jpg);
+        background-image: url(./Imagenes/Galeria/HitSalvador/HITSALVADOR.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -354,10 +353,6 @@ body {
         font-size: 50px;
         background-color: rgba(0, 0, 0, 0);
     }
-
-    img {
-        height: 250px;
-    }
 }
 /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
 
@@ -376,14 +371,7 @@ body {
     @include bg (contain, cover);
 }
 
-.gridprox {
-    display: grid;
-    grid-template-areas: "prox1 mapa";
-    height: 100%;
-    padding: 20px;
-    margin-top: 30px;
-    background-color: rgba(0, 0, 0, 0);
-}
+
 
 .textoProximafecha {
     grid-area: prox1;
