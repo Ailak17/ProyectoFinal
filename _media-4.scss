@@ -5,6 +5,9 @@
         color: white;
         box-sizing: border-box;
     }
+    body {
+        background-color: rgb(0, 0, 0);
+    }
     header {
         width: 100%;
         height: 120px;
@@ -12,7 +15,7 @@
     }
     
     header .logo {
-        width: 30%;
+        width: 50%;
         height: 100%;
         align-items: center;
     }
@@ -26,10 +29,10 @@
     
     .menu {
         height: 100%;
-        width: 100%;
+        width: 50%;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content:flex-start;
     }
     
     .menu li {
@@ -290,6 +293,97 @@
         background-position: center;
     }
 }
+/*------------------------------------ Pagina Proximas fechas----------------------------------------*/
+
+.fondoprox {
+    background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
+}
+
+.proxh2 {
+    height: 70px;
+    font-family: $fuente4;
+    text-shadow: 0 0 30px rgba(163, 51, 7, 0.952);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(./Imagenes/fondo/descarga.jpg);
+    @include bg (contain, cover);
+}
+
+.gridprox {
+    display: grid;
+    grid-template-areas: "prox1 mapa";
+    height: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.textoProximafecha {
+    grid-area: prox1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+
+    h1 {
+        height: 100px;
+        font-family: $fuente4;
+        font-size: 50px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    p {
+        height: 100px;
+        font-family: $fuente4;
+        font-size: 40px;
+        background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+
+        strong {
+            background-color: rgba(0, 0, 0, 0);
+        }
+    }
+}
+
+.mapita {
+    grid-area: mapa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mapa {
+    width: 320px;
+    height: 280px;
+
+}
+
+.bandas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+
+    h3 {
+        text-align: center;
+        height: 100px;
+        margin-top: 50px;
+        font-family: $fuente4;
+        font-size: 50px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    img {
+        height: 250px;
+    }
+}
+
+/*----------------------Nuevos lanzamientos------------------*/
 .cardEstilo {
     background-color: black;
     box-shadow: 1rem 1rem 1rem 2rem rgba(34, 147, 167, 0.596);
