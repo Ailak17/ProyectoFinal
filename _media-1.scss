@@ -262,7 +262,8 @@
 /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
 
 .fondoprox {
-    background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
+    background-image: url(./Imagenes/fondo/fire.jpg);
+    @include bg (cover, center)
 }
 
 .proxh2 {
@@ -273,8 +274,6 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    background-image: url(./Imagenes/fondo/descarga.jpg);
-    @include bg (contain, cover);
 }
 .textoProximafecha {
     flex-direction: column;
@@ -285,6 +284,7 @@
         font-family: $fuente4;
         font-size: 20px;
         background-color: rgba(0, 0, 0, 0);
+        text-shadow: 0 0 10px rgb(0, 0, 0);
         
     }
     p {
@@ -293,9 +293,11 @@
         background-color: rgba(0, 0, 0, 0);
         text-align: center;
         margin-top: 10px;
+        text-shadow: 0 0 10px rgb(0, 0, 0);
         
         strong {
             background-color: rgba(0, 0, 0, 0);
+            text-shadow: 0 0 10px rgb(0, 0, 0);
         }
         
     }

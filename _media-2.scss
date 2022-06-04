@@ -275,7 +275,8 @@ body {
     background-color: black;
 }
 .fondoprox {
-    background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
+    background-image: url(Imagenes/fondo/fire.jpg);
+    @include bg (cover, center)
 }
 
 .imagenFechas {
@@ -311,6 +312,7 @@ body {
         font-size: 40px;
         background-color: rgba(0, 0, 0, 0);
         text-align: center;
+        text-shadow: 0 0 10px rgb(0, 0, 0);
     }
 
     p {
@@ -319,9 +321,11 @@ body {
         font-size: 30px;
         background-color: rgba(0, 0, 0, 0);
         text-align: center;
+        text-shadow: 0 0 10px rgb(0, 0, 0);
 
         strong {
             background-color: rgba(0, 0, 0, 0);
+            text-shadow: 0 0 10px rgb(0, 0, 0);
         }
     }
 }
@@ -442,9 +446,18 @@ body {
 /*----------------------Nuevos lanzamientos------------------*/
 .cardEstilo {
     background-color: black;
-    box-shadow: 1rem 1rem 1rem 2rem rgba(34, 147, 167, 0.596);
+    box-shadow: 1rem 0rem 1rem 1rem rgba(34, 147, 167, 0.596);
     border-radius: 10px;
+}
+.despimg {
+    width: 100%;
+    padding: 0;
 }
 .fontDeLaCard {
     font-family: $fuente3;
 }
+row {
+    padding: 0 ;
+}
+
+

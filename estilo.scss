@@ -20,6 +20,7 @@ $colorb : white;
 /*----------------Header todas las secciones------------------------*/
 body {
     background-color: rgb(0, 0, 0);
+    width: 100%;
 }
 
 header {
@@ -318,8 +319,9 @@ $osc in $oscuro {
 /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
 
 .fondoprox {
-    background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
-    background-size: auto;
+    background-image: url(Imagenes/fondo/fire.jpg);
+    @include bg (cover, center);
+    
 }
 
 .proxh2 {
@@ -329,8 +331,7 @@ $osc in $oscuro {
     font-weight: bold;
     text-align: center;
     font-size: 200px;
-    background-image: url(./Imagenes/fondo/descarga.jpg);
-    @include bg (contain, cover);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .textoProximafecha {
@@ -346,6 +347,7 @@ $osc in $oscuro {
         font-family: $fuente4;
         font-size: 50px;
         background-color: rgba(0, 0, 0, 0);
+        text-shadow: 0 0 10px rgb(0, 0, 0);
     }
 
     p {
@@ -354,6 +356,7 @@ $osc in $oscuro {
         font-size: 40px;
         background-color: rgba(0, 0, 0, 0);
         text-align: center;
+        text-shadow: 0 0 10px rgb(0, 0, 0);
 
         strong {
             background-color: rgba(0, 0, 0, 0);
@@ -362,7 +365,6 @@ $osc in $oscuro {
 }
 
 .mapita {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,8 +382,6 @@ $osc in $oscuro {
         background-color: rgba(0, 0, 0, 0);
         text-shadow: 0 0 20px rgb(255, 94, 0);
     }
-
-    
 }
 /*--------------------------------------nuevo lanzamiento--------------------*/
 
@@ -390,10 +390,17 @@ $osc in $oscuro {
     box-shadow: 1rem 1rem 1rem 2rem rgba(34, 147, 167, 0.596);
     border-radius: 10px;
 }
-
+.despimg {
+    width: 100%;
+    padding: 0;
+}
 .fontDeLaCard {
     font-family: $fuente3;
 }
+row {
+    width: 100% ;
+}
+
 
 /*--------------------------------contacto-----------------*/
 .negro {

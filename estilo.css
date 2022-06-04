@@ -9,6 +9,7 @@
 /*----------------Header todas las secciones------------------------*/
 body {
   background-color: rgb(0, 0, 0);
+  width: 100%;
 }
 
 header {
@@ -293,8 +294,9 @@ footer a {
 
 /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
 .fondoprox {
-  background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
-  background-size: auto;
+  background-image: url(Imagenes/fondo/fire.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .proxh2 {
@@ -304,9 +306,7 @@ footer a {
   font-weight: bold;
   text-align: center;
   font-size: 200px;
-  background-image: url(./Imagenes/fondo/descarga.jpg);
-  background-size: contain;
-  background-position: cover;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .textoProximafecha {
@@ -322,6 +322,7 @@ footer a {
   font-family: "Antonio";
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p {
   height: 100px;
@@ -329,6 +330,7 @@ footer a {
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p strong {
   background-color: rgba(0, 0, 0, 0);
@@ -360,8 +362,17 @@ footer a {
   border-radius: 10px;
 }
 
+.despimg {
+  width: 100%;
+  padding: 0;
+}
+
 .fontDeLaCard {
   font-family: "New Rocker";
+}
+
+row {
+  width: 100%;
 }
 
 /*--------------------------------contacto-----------------*/
@@ -674,7 +685,9 @@ footer a {
 }
 /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
 .fondoprox {
-  background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
+  background-image: url(./Imagenes/fondo/fire.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .proxh2 {
@@ -684,9 +697,6 @@ footer a {
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  background-image: url(./Imagenes/fondo/descarga.jpg);
-  background-size: contain;
-  background-position: cover;
 }
 
 .textoProximafecha {
@@ -698,6 +708,7 @@ footer a {
   font-family: "Antonio";
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p {
   font-family: "Antonio";
@@ -705,9 +716,11 @@ footer a {
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
   margin-top: 10px;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p strong {
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .mapita {
@@ -1066,7 +1079,9 @@ body {
 }
 
 .fondoprox {
-  background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
+  background-image: url(Imagenes/fondo/fire.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .imagenFechas {
@@ -1101,6 +1116,7 @@ body {
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p {
   height: 100px;
@@ -1108,9 +1124,11 @@ body {
   font-size: 30px;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p strong {
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .mapita {
@@ -1220,12 +1238,21 @@ body {
 /*----------------------Nuevos lanzamientos------------------*/
 .cardEstilo {
   background-color: black;
-  box-shadow: 1rem 1rem 1rem 2rem rgba(34, 147, 167, 0.596);
+  box-shadow: 1rem 0rem 1rem 1rem rgba(34, 147, 167, 0.596);
   border-radius: 10px;
+}
+
+.despimg {
+  width: 100%;
+  padding: 0;
 }
 
 .fontDeLaCard {
   font-family: "New Rocker";
+}
+
+row {
+  padding: 0;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
@@ -1517,7 +1544,9 @@ body {
 }
 /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
 .fondoprox {
-  background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
+  background-image: url(Imagenes/fondo/fire.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .proxh2 {
@@ -1545,6 +1574,7 @@ body {
   font-family: "Antonio";
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p {
   height: 100px;
@@ -1552,9 +1582,11 @@ body {
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p strong {
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .mapita {
@@ -1894,10 +1926,13 @@ body {
 }
 /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
 .fondoprox {
-  background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
+  background-image: url(Imagenes/fondo/fire.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .proxh2 {
+  text-shadow: 0 0 10px rgb(0, 0, 0);
   height: 70px;
   font-family: "Antonio";
   text-shadow: 0 0 30px rgba(163, 51, 7, 0.952);
@@ -1922,6 +1957,7 @@ body {
   font-family: "Antonio";
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p {
   height: 100px;
@@ -1929,9 +1965,11 @@ body {
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p strong {
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .mapita {
@@ -2263,10 +2301,13 @@ body {
 }
 /*------------------------------------ Pagina Proximas fechas----------------------------------------*/
 .fondoprox {
-  background-image: linear-gradient(rgba(52, 54, 70, 0.493), rgb(68, 13, 13), black);
+  background-image: url(./Imagenes/fondo/fire.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .proxh2 {
+  text-shadow: 0 0 10px rgb(0, 0, 0);
   height: 70px;
   font-family: "Antonio";
   text-shadow: 0 0 30px rgba(163, 51, 7, 0.952);
@@ -2291,6 +2332,7 @@ body {
   font-family: "Antonio";
   font-size: 50px;
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p {
   height: 100px;
@@ -2298,9 +2340,11 @@ body {
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .textoProximafecha p strong {
   background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .mapita {
